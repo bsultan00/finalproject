@@ -1,0 +1,130 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    background: rgb(248, 229, 229)
+}
+  
+header {
+    background-color: #ffc3c3;
+    text-align: center;
+}
+
+#logo {
+    height: 20em;
+    width: 20em;
+}
+
+#header-text {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+main, p {
+    text-align: center;
+    padding: 15px;
+}
+
+.logo-container {
+    display: inline-block;
+    vertical-align: middle; /* Align the logo vertically with the text */
+}
+
+nav {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+nav b ul {
+    list-style: none;
+    display: inline-block;
+}
+
+nav b li {
+    display: inline;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+nav b a {
+    text-decoration: none;
+    color: rgb(240, 63, 119);
+}
+
+a:hover {
+    color: rgb(32, 19, 19);
+}
+
+form {
+   padding: 10px;
+   margin: 75px 50px 75px 50px;
+   padding: 30px 30px 30px 30px;
+   border: 1px solid rgb(240, 63, 119);
+   border-radius: 5px;
+}
+
+.formtitle {
+    text-align: center;
+}
+
+#submit-button {
+    color: #3B5998;
+}
+
+#contact-image {
+    width: 300px;
+    height: 250px;
+    float: right;
+    border-radius: 5px;
+    position: static;
+}
+
+.line {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(240, 63, 119);
+}
+
+.fa {
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 3px;
+    border-radius: 20%;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+footer {
+    background-color: #ffc3c3;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#video {
+    border-radius: 10%;
+    border-color: rgb(240, 63, 119);
+    border-width: 5px;
+}
+
+#map {
+    border-radius: 10%;
+}
+

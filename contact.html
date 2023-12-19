@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+ 
+<head>
+    <title>Ice Cream Shop Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Stylesheets/styles.css">
+    <script src="https://kit.fontawesome.com/94bb293884.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+    
+    <header>
+        <div class="logo-container">
+            <img id="logo" src="Images/logo.png" alt="Ice Cream Shop Logo">
+        </div>
+        <div id="header-text">
+            
+            <h3>Hours:<br> Wednesday - Saturday, 2-9 PM<br>
+                Sunday, 2-7 PM
+            </h3>
+        </div>
+    </header>
+
+    <nav>
+        <b>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Flavors</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </b>
+    </nav>
+
+    <h1 class="formtitle">Contact Us</h1>
+    <h3 class="formtitle">Have a flavor suggestion? Looking to order wholesale? Let us know.</h3>
+    <form action="mailto:bsultan@bhcc.edu" autocomplete="on" method="post" target="_blank">
+        <img id="contact-image" src="Images/Ice Cream Courtney Cook.jpg">
+        
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" maxlength="35" size="35" required><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" maxlength="35" size="35" required><br>
+
+        <label for="email">Email <i class="fa-solid fa-envelope"></i>:</label><br>
+        <input type="email" id="email" name="email" maxlength="35" size="35" required><br>
+
+        <label for="fname">Message <i class="fa-regular fa-comment"></i>:</label><br>
+        <textarea type="text" name="comments" id="comments" rows="3" cols="30" placeholder="Write something.." maxlength="100" required></textarea><br>
+
+        <span>This is a business inquiry</span><input type="checkbox">
+
+        <input class="button" id="submit-button" type="submit" value="Submit">
+    </form>
+
+      <footer>
+        <small>
+           <i>
+           Copyright © 2023 Sunshine Creamery<br>
+           </i>
+        </small> 
+    </footer>
+
+</body>
+ 
+</html>
